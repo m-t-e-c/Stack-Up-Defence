@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47aa15a72b8d8e468d8042dfee931ea, type: 3}
+  m_Name: L-1 W-5
+  m_EditorClassIdentifier: 
+  waves:
+  - enemyType: {fileID: 223183563484122283, guid: 99d170e7bee33a6428fff283ce64855d,
+      type: 3}
+    enemyCount: 40
+    timeBetweenSpawns: 0.5
+    waveWaitTime: 0.5
+  - enemyType: {fileID: 364688195371859685, guid: 1e40d90fef8137040be05c079f054a51,
+      type: 3}
+    enemyCount: 20
+    timeBetweenSpawns: 0.5
+    waveWaitTime: 1
+  - enemyType: {fileID: 1217452905454986874, guid: 222149a08490a9046ad2d6ebc7024054,
+      type: 3}
+    enemyCount: 20
+    timeBetweenSpawns: 0.8
+    waveWaitTime: 1
+  - enemyType: {fileID: 6401505958045462404, guid: 9a29e30ff63e1a44386052ecc711f54c,
+      type: 3}
+    enemyCount: 2
+    timeBetweenSpawns: 3
+    waveWaitTime: 1
